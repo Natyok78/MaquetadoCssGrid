@@ -44,12 +44,14 @@ section{
 
 article{
 background-color: #8bccd0;
-   border-radius: 10px;
-  border-radius: 25px;
+  border-radius: 10px;
+  border-radius: 25px;    
+  border: 1px solid blue;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;
   padding: 10px;
+  
 }
 
 nav{
