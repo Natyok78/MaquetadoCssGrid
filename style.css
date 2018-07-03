@@ -27,18 +27,24 @@ background-color: lightblue;
 footer{
 background-color: lightpink;
   color: Orchid;
-  grid-columns: 1 / -1;
+  grid-column: 1 / -1;
 }
 
 section{
-  background-color: lightgreen;
+  background-color: #af99c7;
+  font-family: 'Wendy One', sans-serif;
+  color: #663c84;
+  text-align: center;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 
 article{
 background-color: #8bccd0;
-   border-radius: 10px;
+   border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
   padding: 10px;
 }
 
