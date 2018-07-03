@@ -17,8 +17,10 @@ background-color: lightgreen;
 }
 
 header{
-background-color: lightblue;
-  font-family: 'Snippet', sans-serif;
+background-color: cyan;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  color: #078dca;
   text-align: center;
   grid-column: 1 / -1;  
 }
@@ -31,6 +33,7 @@ background-color: lightpink;
 }
 
 section{
+  background-color: lightgreen;
   background-color: #af99c7;
   font-family: 'Wendy One', sans-serif;
   color: #663c84;
@@ -41,7 +44,8 @@ section{
 
 article{
 background-color: #8bccd0;
-   border-radius: 25px;
+   border-radius: 10px;
+  border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-align: center;
