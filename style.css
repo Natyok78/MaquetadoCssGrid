@@ -9,19 +9,20 @@ body{
 background-color: lightgreen;
   font-size: large;
   
-  display: grid;
+ display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grip-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);  
+  
 }
 
 header{
 background-color: lightblue;
-  font-family: 'Amatic SC', cursive;
-  text-aling: center;
-  grid-columns: 1 / -1;
+  font-family: 'Snippet', sans-serif;
+  text-align: center;
+  grid-column: 1 / -1;  
 }
+
 
 footer{
 background-color: lightpink;
@@ -31,16 +32,16 @@ background-color: lightpink;
 
 section{
   background-color: lightgreen;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 article{
 background-color: #8bccd0;
+   border-radius: 10px;
+  padding: 10px;
 }
 
-article{
-background-color: #8bccd0;
-}
-
-article{
-background-color: #8bccd0;
+nav{
+  background-color: seagreen;
 }
