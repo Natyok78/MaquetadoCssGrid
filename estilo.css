@@ -36,11 +36,11 @@ background-color: lightpink;
   /* grid-column: 1 / -1;  */
   min-height: 50px;
 }
-
-section{
 .item1 {
   grid-column: 1 / span 3;
 }
+section{
+
   grid-column: 2 / 5;
   background-color: lightgreen;
   background-color: #af99c7;
@@ -48,7 +48,11 @@ section{
   color: #663c84;
   text-align: center;
   grid-column-start: 2;
-  grid-column-end: -1; 
+  grid-column-end: -2; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  
 }
 
 article{
@@ -65,4 +69,16 @@ article{
 
 nav{
   background-color: seagreen;
+}
+section > h1 {
+grid-column: 1 / -1;
+}
+aside{
+background-color: yellowgreen;  
+}
+
+#panelMsg{
+  background-color: lightyellow;
+  grid-column: 1 / -1;
+  
 }
