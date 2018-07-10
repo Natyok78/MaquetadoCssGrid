@@ -50,15 +50,25 @@
 
 
     
-    <div id="panelMsg">Algo</div>
-
+    <div id="panelMsg">
+      <div>Titulo Ingresado: </div>
+      <div id="panelMsgContenido"></div>
+  
+      </div>
     </section>
+      
   
   <aside>Formulario
+    
+    <input type="text" id="nota_titulo"
+           placeholder="Ingrese titulo aqui"/>
+    
     <button id=""
             class=""
             onclick="Notas.subir();"
             > Presione!!
+    <button 
+            onclick="Notas.limpiar();"> Limpiar
     
     </button>
   </aside>
